@@ -283,3 +283,35 @@ how-we-work:first-child {
     margin-bottom: 10px;
     border: none;
 }
+
+/* CSS for Contact Page */
+
+.contact-form {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+}
+
+.contact-footer {
+    position: fixed;
+    bottom: 0;
+    width: 800px;
+}
+
+form {
+    margin: 20px;
+}
+
+.fullname {
+    width: 400px;
+}
+
+.concern {
+    text-align: left;
+    width: 400px;
+    height: 200px;
+}
