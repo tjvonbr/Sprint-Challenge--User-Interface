@@ -240,7 +240,11 @@ footer nav a {
 
 .how-we-work {
     display: flex;
-    margin-top: 20px;
+    margin-top: 0px;
+}
+
+how-we-work:first-child {
+    margin-left: 0px;
 }
 
 .strategy {
@@ -248,6 +252,10 @@ footer nav a {
     flex-direction: column;
     margin: 20px;
     border-bottom: 1px dashed black;
+}
+
+.strategy-one {
+    margin-left: 5px;
 }
 
 .strategy-image {
@@ -268,4 +276,10 @@ footer nav a {
 .learn-more-button:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.bottom {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: none;
 }
