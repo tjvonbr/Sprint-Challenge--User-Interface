@@ -106,8 +106,13 @@ header nav a:last-child {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 30px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.Night-Highway {
+    margin-bottom: 30px;
 }
 
 .top-content .text-container {
