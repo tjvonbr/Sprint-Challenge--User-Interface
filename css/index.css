@@ -84,7 +84,7 @@ header nav {
 
 }
 header nav a {
-    margin-right: 65px;
+    margin-right: 75px;
     text-decoration: none;
     font: inherit;
     color: black;
@@ -140,13 +140,54 @@ header nav a:last-child {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+    background: teal!important;
+}
+
+.box2 {
+    background: gold!important;
+}
+
+.box3 {
+    background: cadetblue!important;
+}
+
+.box4 {
+    background: coral!important;
+}
+
+.box5 {
+    background: crimson!important;
+}
+
+.box6 {
+    background: forestgreen!important;
+}
+
+.box7 {
+    background: darkorchid!important;
+}
+
+.box8 {
+    background: hotpink!important;
+}
+
+.box9 {
+    background: indigo!important;
+}
+
+.box10 {
+    background: dodgerblue!important;
+}
+
 
 .bottom-content {
     display: flex;
@@ -179,4 +220,52 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* CSS for About Page */
+
+.about-content {
+    margin-top: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content-image {
+    margin-bottom: 20px;
+}
+
+.about-content-text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.how-we-work {
+    display: flex;
+    margin-top: 20px;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.strategy-image {
+    margin-bottom: 20px;
+}
+
+.learn-more-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width:  100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    text-decoration: none;
+}
+
+.learn-more-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
