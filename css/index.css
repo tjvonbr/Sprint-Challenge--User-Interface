@@ -71,12 +71,48 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    margin-top: 20px;
+}
+
+header nav {
+    display: flex;
+    width: 690px;
+    vertical-align: bottom;
+    margin-top: 35px;
+
+}
+header nav a {
+    margin-right: 75px;
+    text-decoration: none;
+    font: inherit;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav a:first-child {
+    margin-left: 50px;
+}
+
+header nav a:last-child {
+    margin-right: 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 30px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.Night-Highway {
+    margin-bottom: 30px;
 }
 
 .top-content .text-container {
@@ -104,12 +140,47 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background: coral;
+}
+.boxes .box:nth-child(5) {
+    background: crimson;
+}
+.boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+.boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+.boxes .box:nth-child(8) {
+    background: hotpink;
+}
+.boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +214,98 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* CSS for About Page */
+
+.about-content {
+    margin-top: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content-image {
+    margin-bottom: 20px;
+}
+
+.about-content-text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.how-we-work {
+    display: flex;
+    margin-top: 0px;
+}
+
+how-we-work:first-child {
+    margin-left: 0px;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.strategy-one {
+    margin-left: 5px;
+}
+
+.strategy-image {
+    margin-bottom: 20px;
+}
+
+.learn-more-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width:  100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    text-decoration: none;
+}
+
+.learn-more-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottom {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+/* CSS for Contact Page */
+
+.contact-form {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+}
+
+.contact-footer {
+    position: fixed;
+    bottom: 0;
+    width: 800px;
+}
+
+form {
+    margin: 20px;
+}
+
+.fullname {
+    width: 400px;
+}
+
+.concern {
+    text-align: left;
+    width: 400px;
+    height: 200px;
 }
